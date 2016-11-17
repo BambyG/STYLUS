@@ -1,0 +1,22 @@
+#banner {
+	background-image: image-url("background.jpg");
+	padding:40px;
+	color:$red;
+	height: 680px;	
+	background-repeat: no-repeat;
+	padding-top: 5em;
+
+	
+	h1{
+	font-size: 100px;
+}
+	p{
+	font-size: 40px;
+	padding-bottom: 50px;
+	}
+
+}
+
+.plan {
+	background-image: image-url("logo.svg");
+}

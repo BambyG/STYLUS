@@ -1,0 +1,40 @@
+---
+title: Contactez-nous
+---
+
+<div class="container padded">
+  
+  <div class="row">
+  <div class="col-sm-6">
+  <dir class="spacer"></dir>
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 48.8230285, lng: 2.4174884000000247};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Bt7JwmHyPywp55uY4_2FX96P8XbvlW0&callback=initMap">
+    </script>
+    
+  </div>
+ 
+ 
+  <div class="col-sm-6">
+  <dir class="spacer"></dir>
+  <h2>Contact</h2>
+  <p><i class="fa fa-map-marker" aria-hidden="true"></i> 25 Rue de la République - Paris</p>
+  <p><i class="fa fa-mobile" aria-hidden="true"></i> 07 00 00 00 00</p>
+    
+  </div>
+  </div>
+</div>

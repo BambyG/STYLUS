@@ -1,10 +1,80 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Bienvenue chez Bliciouss
 ---
 
-<div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  <div id="banner" class="">
+    <h1>BLiciouss</h1>
+      <p>Votre coiffeuse à portée de main</p>
+      
+      <button type="button" class="btn btn-info btn-lg rounded" data-toggle="modal" data-target="#orderform">
+  Je réserve ma coiffeuse
+      </button>
+  </div>
+ <!-- Modal -->
+  <div class="modal fade" id="orderform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- USPs -->
+
+  <div class="bg-red text-center padded">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "localisation.png" %>
+       <h2>Proximité</h2>
+         <p>Réservez une coiffeuse triée sur le volet à proximité grâce à notre outil de géolocalisation.</p> 
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "choice.png" %>
+       
+      <h2>Choix</h2>
+        <p>Choissisez parmi plus 1000 coiffures sur notre catalogue en ligne, ou optez pour une coiffure personalisée.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "payment.png" %>
+    
+      <h2>Sécurisé</h2>
+        <p>Bénéficiez d'un moyen de paiement en ligne sécurisé disponible.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "flexibility.png" %>
+            
+          <h2>Flexible</h2>
+            <p>Un contre temps? Modifiez votre réservation en quelques clics.</p>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+  </div>
+
+<!-- NL -->
+
+<div id="newsletter" class="text-center padded plan">
+  <h2>Restez à la page !</h2>
+    <p>Fournissez votre e-mail et rececez les dernières nouvelles de BLicious...</p>
+      <form action="" class="form-inline">
+        <input type="mail" class="form-control" placeholder="Mon e-mail ici">
+        <input type="sumbmit" value="Je m'inscris" class="btn btn-danger ">
+      </form>
+</div>
+</div>
+
+</div> 
+    
+
