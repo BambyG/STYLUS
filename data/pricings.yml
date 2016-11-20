@@ -1,0 +1,20 @@
+- name: Ghana braids
+  content: Façon de créer des nattes au plus près de crane. 
+  image_file: http://placehold.it/150x150
+  price: 45€
+  color: warning
+- name: Crochet braids
+  content:  Les crochet braids ou "tresses au crochet" une alternative au tissage
+  image_file: http://placehold.it/150x150
+  price: 50€
+  color: success
+- name: Tissage
+  content: le tissage une technique de coiffure qui consiste à fixer les extensions sur la tête en cousant les bandes de tissages sur les cheveux préalablement tressés ou en les collant.
+  image_file: http://placehold.it/150x150
+  price: 65€
+  color: success
+- name: Box braids
+  content: Les box braids sont tout simplement des tresses africaines qui partent du cuir chevelu jusqu'à la longueur souhaitée.
+  image_file: http://placehold.it/150x150
+  price: 70€
+  color: primary
