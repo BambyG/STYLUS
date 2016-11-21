@@ -2,13 +2,15 @@
 title: Bienvenue chez Bliciouss
 ---
 
-  <div id="banner" class="">
+  <div id="banner">
+  <div class="appearIn">
     <h1>BLiciouss</h1>
-      <p>Votre coiffeuse à portée de main</p>
+      <p>Votre coiffeuse à portée <br>de main </br> </p>
       
       <button type="button" class="btn btn-info btn-lg rounded" data-toggle="modal" data-target="#orderform">
   Je réserve ma coiffeuse
       </button>
+      </div>
   </div>
  <!-- Modal -->
   <div class="modal fade" id="orderform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
@@ -33,9 +35,10 @@ title: Bienvenue chez Bliciouss
 
   <div class="bg-red text-center padded">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3">
-    <%= image_tag "localisation.png" %>
+      <div class="row expandOpen">
+        <div class="col-xs-12 col-sm-6 col-md-3 ">
+
+    <%= image_tag "localisation.png"%>
        <h2>Proximité</h2>
          <p>Réservez une coiffeuse triée sur le volet à proximité grâce à notre outil de géolocalisation.</p> 
     </div>
