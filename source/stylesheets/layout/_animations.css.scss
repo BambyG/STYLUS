@@ -31,6 +31,7 @@
 
 
 .appearIn {
+	opacity: 0;
 	animation: appearIn 3s 1 ease forwards;
 	-webkit-animation: appearIn 3s 1 ease forwards;
 	-moz-animation: appearIn 3s 1 ease forwards;
@@ -38,6 +39,7 @@
 
 
 .expandOpen{
+  
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
 
@@ -89,6 +91,7 @@
 
 
 .slideLeft{
+  
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
 
