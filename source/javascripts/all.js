@@ -2,8 +2,19 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+$(document). ready (function(){
+  
+  $(window).on("scroll",function() {
+    if ( $(this).scrollTop() > 640){
+      $(".navbar").css("background-color", "#333333");
+  } else{
+    $(".navbar").css("background-color", "transparent");
+  }
 
-script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+ });
+});
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <script type="text/javascript">
   var myLatlng = new google.maps.LatLng(48.852937,2.364178);
@@ -22,3 +33,5 @@ script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></sc
       title: "You are here!"
   });
 </script>
+
+
