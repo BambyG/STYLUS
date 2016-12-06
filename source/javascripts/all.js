@@ -2,16 +2,29 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-$(document). ready (function(){
+//$(document). ready (function(){
   
-  $(window).on("scroll",function() {
-    if ( $(this).scrollTop() > 640){
-      $(".navbar").css("background-color", "#222222");
-  } else{
-    $(".navbar").css("background-color", "transparent");
-  }
+//  $(window).on("scroll",function() {
+//    if ( $(this).scrollTop() > 640){
+ //     $(".navbar").css("background-color", "#222222" );
+ // } else{
+ //   $(".navbar").css("background-color", "transparent");
+ // }
 
- });
+// });
+//});
+
+
+$(document).ready(function() {
+  // navbar transition jQuery script
+  $(window).scroll(function(e){
+    if ($(this).scrollTop() > 200) {
+      $(".navbar").slideUp();
+    }
+    else {
+      $(".navbar").slideDown();
+    }
+  });
 });
 
 
@@ -29,3 +42,5 @@ $(function() {
     }
   });
 });
+
+
