@@ -26,30 +26,41 @@ title: Bienvenue chez Bliciouss
 
   <div class="bg-red text-center padded" id="features">
     <div class="container">
-      <div class="row expandOpen">
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-
+      <div class="row" >
+        <div class="card">
+    <div class="col-xs-12 col-sm-6 col-md-3 ">
     <%= image_tag "localisation.png"%>
        <h2>Proximité</h2>
          <p>Réservez une coiffeuse triée sur le volet à proximité grâce à notre outil de géolocalisation.</p> 
     </div>
+
+    </div>
+
+    <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
     <%= image_tag "choice.png" %>
        
       <h2>Choix</h2>
         <p>Choissisez parmi plus 1000 coiffures sur notre catalogue en ligne, ou optez pour une coiffure personalisée.</p>
     </div>
+    </div>
+
+      <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
     <%= image_tag "payment.png" %>
+  
     
       <h2>Sécurisé</h2>
         <p>Bénéficiez d'un moyen de paiement en ligne sécurisé disponible.</p>
     </div>
+    </div>
+      <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
     <%= image_tag "flexibility.png" %>
             
           <h2>Flexible</h2>
             <p>Un contre temps? Modifiez votre réservation en quelques clics.</p>
+      </div>
       </div>
     </div>
      <div class="text-center"> 
@@ -153,6 +164,11 @@ title: Bienvenue chez Bliciouss
   </div>
 </div>
     
+<script>
 
+window.sr = ScrollReveal({ duration: 2000 });
+sr.reveal('.card', 900);
+
+</script>
 
 
