@@ -1,22 +1,66 @@
+#banner p{
+  font-size: 20px;
+}
+
+@media (min-width: 600px) {
+  #banner p{
+    font-size: 30px;
+  }
+
+@media (min-width: 800px) {
+  #banner p{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner p{
+    font-size: 50px;
+  }
+}
+}
+
+#banner h1{
+  font-size: 40px;
+}
+
+@media (min-width: 600px) {
+  #banner h1{
+    font-size: 60px;
+  }
+
+@media (min-width: 800px) {
+  #banner h1{
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner h1{
+    font-size: 100px;
+  }
+}
+}
+
+
+
 #banner {
-	background-image: image-url("background.jpg");
-	padding:40px;
 	color:$gray-dark;
 	height: 680px;	
+	width: 100%;
+	background-image:image-url("background.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	padding-top: 5em;
-	
-
-	
-	h1{
-	font-size: 100px;
-}
-	p{
-	font-size: 40px;
-	padding-bottom: 50px;
-	}
+	background-position: center;
+	position: relative;
+	padding-left: 35px;
+	padding-top: 250px;
 
 }
+
+
+	
+
 
 .plan {
 	background-image: image-url("logo.svg");
@@ -36,17 +80,17 @@
 .fa-angle-down {
 	font-size: 90px;
 	color: white;
-	position: relative;
-    top: 150px;
+	position: absolute;
+    top: 550px;
 } 
 
 .fleche {
 	position: relative;
-    top: 125px;
+    top: 60px;
 }
 
 .fleche2 {
 	position: relative;
-    top: 80px;
+    top: 40px;
     color: $red;
 }
