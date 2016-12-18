@@ -44,3 +44,9 @@ $(function() {
 });
 
 
+{   
+   $(".navbar-header button").click(function(event) {
+   if ($(".navbar-collapse").hasClass('in'))
+   {  $(".navbar-collapse").slideUp();  }
+});})
+
