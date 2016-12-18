@@ -2,19 +2,20 @@
 title: Bienvenue chez Bliciouss
 ---
 
-  <div id="banner" class="img-responsive ">
+  <div id="banner" class="img-responsive  ">
   
   <h1 class="appearIn ">BLiciouss</h1>
-  <p class="appearIn ">Votre coiffeuse à portée <br>de main </br> </p>
+  <p class="appearIn ">Votre coiffeuse <br>à portée</br> de main  </p>
   <button type="button" class="btn btn-info btn-lg rounded btn-responsive" data-toggle="modal" data-target="#myModal">
   Je réserve ma coiffeuse
       </button>
-    <div class="text-center">   <a href="#features">
-        <i class="fa fa-angle-down pulse"></i>
-        </a></div>
- 
+  <div class="text-center"> <a href="#features">
+        <i class="fa fa-angle-down pulse fleche0"></i>
+        </a>
+  
 
       </div>
+   </div>
 
 
 
@@ -23,12 +24,12 @@ title: Bienvenue chez Bliciouss
   
 <!-- USPs -->
 
-  <div class="bg-red text-center padded2" id="features">
-    <div class="container">
-      <div class="row" >
+  <div class="bg-red text-center padded3" id="features">
+    <div class="container ">
+      <div class="row " >
         <div class="card">
-    <div class="col-xs-12 col-sm-6 col-md-3 ">
-    <%= image_tag "localisation.png"%>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "localisation.png" ,class:"hauteur"%>
        <h2>Proximité</h2>
          <p>Réservez une coiffeuse triée sur le volet à proximité grâce à notre outil de géolocalisation.</p> 
     </div>
@@ -37,7 +38,7 @@ title: Bienvenue chez Bliciouss
 
     <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
-    <%= image_tag "choice.png" %>
+    <%= image_tag "choice.png" ,class:"hauteur"%>
        
       <h2>Choix</h2>
         <p>Choissisez parmi plus 1000 coiffures sur notre catalogue en ligne, ou optez pour une coiffure personalisée.</p>
@@ -46,7 +47,7 @@ title: Bienvenue chez Bliciouss
 
       <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
-    <%= image_tag "payment.png" %>
+    <%= image_tag "payment.png" ,class:"hauteur"%>
   
     
       <h2>Sécurisé</h2>
@@ -55,7 +56,7 @@ title: Bienvenue chez Bliciouss
     </div>
       <div class="card">
     <div class="col-xs-12 col-sm-6 col-md-3">
-    <%= image_tag "flexibility.png" %>
+    <%= image_tag "flexibility.png",class:"hauteur"%>
             
           <h2>Flexible</h2>
             <p>Un contre temps? Modifiez votre réservation en quelques clics.</p>
@@ -79,18 +80,15 @@ title: Bienvenue chez Bliciouss
 
 <!-- NL -->
 
-<div id="newsletter" class="text-center padded plan" >
+<div id="newsletter" class="text-center padded3 plan" >
   <h2>Restez à la page !</h2>
     <p>Fournissez votre e-mail et rececez les dernières nouvelles de BLicious...</p>
       <form action="" class="form-inline">
         <input type="mail" class="form-control" placeholder="Mon e-mail ici">
-        <input type="sumbmit" value="Je m'inscris" class="btn btn-danger ">
+
+        <input type="sumbmit" value="Je m'inscris" class="btn btn-danger inscription">
       </form>
 
-           <div class="text-center"> 
-        <a href="#testimonials">
-          <i class="fa fa-angle-down fleche2 pulse"></i>
-        </a>
 
       </div>
 
@@ -99,7 +97,7 @@ title: Bienvenue chez Bliciouss
 <!-- Testimonials -->
 
 <div id="testimonials">
-  <div class="container text-center padded2">
+  <div class="container text-center padded3">
   <h2>Les avis de nos clients ! </h2>
     <div class="row">
       <% data.testimonials.each do |testimonial| %>
