@@ -53,18 +53,20 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	padding-left: 35px;
-	padding-top: 250px;
+	padding-top: 200px;
 
 }
 
 
-	
+#banner h1, p, button {
+
+  margin-left: 25px;
+}
 
 
 .plan {
 	background-image: image-url("logo.svg");
-	height: 438px;
+	height: 250px;
 }
 
 
@@ -77,20 +79,34 @@
 
 }
 
-.fa-angle-down {
+.fleche0 {
 	font-size: 90px;
 	color: white;
 	position: absolute;
-    top: 550px;
+  bottom: 20px;
+  text-align: center;
+  margin-left: -30px;
 } 
 
 .fleche {
-	position: relative;
-    top: 60px;
+  font-size: 90px;
+  color: white;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
 }
 
 .fleche2 {
 	position: relative;
     top: 40px;
     color: $red;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+.hauteur {
+  height: 80px;
 }
