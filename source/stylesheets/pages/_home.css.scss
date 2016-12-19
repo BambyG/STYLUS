@@ -58,7 +58,17 @@
 }
 
 
-#banner h1, p, button {
+#banner > h1{
+
+  margin-left: 25px;
+}
+
+#banner > p{
+
+  margin-left: 25px;
+}
+
+#banner > button{
 
   margin-left: 25px;
 }
@@ -67,6 +77,7 @@
 .plan {
 	background-image: image-url("logo.svg");
 	height: 250px;
+
 }
 
 
