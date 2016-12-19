@@ -80,19 +80,19 @@
 }
 
 .fleche0 {
-	font-size: 90px;
+	font-size: 60px;
 	color: white;
 	position: absolute;
   bottom: 20px;
   text-align: center;
-  margin-left: -30px;
+  margin-left: -22px;
 } 
 
 .fleche {
-  font-size: 90px;
+  font-size: 60px;
   color: white;
   position: relative;
-  bottom: 10px;
+  bottom: 0px;
   text-align: center;
 }
 
@@ -104,9 +104,14 @@
 
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .hauteur {
   height: 80px;
+}
+
+.inscription {
+
+  margin-top:10px;
 }
