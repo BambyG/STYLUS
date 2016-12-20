@@ -3,14 +3,14 @@ title: Nos Tarifs
 ---
 <div id="prix">
   <div class="container text-center padded">
-  <h2>Choisissez votre coiffure</h2>
+  <h1>Choisissez votre coiffure</h2>
     <div class="row">
 
       <% data.pricings.each do |pricing| %>
         <div class="col-xs-12 col-sm-6">
           <div class="tarif">
             <%= image_tag pricing.image_file, class:"img-circle" %>
-            <h3><%=pricing.name%>
+            <h2><%=pricing.name%>
               <span class="label label-<%= pricing.color %>"><%= pricing.price %></span>
             </h3>
             <p><em><%=pricing.content%><em></p> 
